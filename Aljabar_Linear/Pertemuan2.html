@@ -1,0 +1,833 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Pertemuan 2 (19/02/2026) &#8212; Catatan MataKuliah</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Aljabar_Linear/Pertemuan2';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Pertemuan 3 (26/022026/)" href="Pertemuan3.html" />
+    <link rel="prev" title="Pertemuan 1" href="Pertemuan1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Catatan MataKuliah - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Catatan MataKuliah - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to my Note Book
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Komputasi Aljabar Linear</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Pertemuan1.html">Pertemuan 1</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Pertemuan 2 (19/02/2026)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Pertemuan3.html">Pertemuan 3 (26/022026/)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Kecerdasan Komputasional</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../KerKom/Pertemuan2.html">Pertemuan 2 (24/02/2026)</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FAljabar_Linear/Pertemuan2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Aljabar_Linear/Pertemuan2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Pertemuan 2 (19/02/2026)</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sistem-persamaan-linear">1.1 Sistem Persamaan Linear</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-persamaan-linear">1.1.1 Definisi Persamaan Linear</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#row-operations-operasi-baris">1.1.2 Row operations (Operasi baris)</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="pertemuan-2-19-02-2026">
+<h1>Pertemuan 2 (19/02/2026)<a class="headerlink" href="#pertemuan-2-19-02-2026" title="Link to this heading">#</a></h1>
+<p><strong>Sistem Persamaan Linear</strong></p>
+<p>Sistem persamaan linear adalah kumpulan dari dua atau lebih persamaan linear dengan variabel yang sama.
+Tujuan utamanya adalah menemukan nilai variabel yayng memenuhi semua persamaan secara bersamaan.
+Contoh :
+$<span class="math notranslate nohighlight">\(
+x + y = 5
+\)</span><span class="math notranslate nohighlight">\(
+\)</span><span class="math notranslate nohighlight">\(
+2x - y = 1
+\)</span>$
+titik potongannya adalah 2,3</p>
+<p><strong>Solusi dari Sistem Persamaan Linear</strong></p>
+<p>Jenis Solusi:</p>
+<ol class="arabic simple">
+<li><p>Solusi Tunggal : Hanaya ada satu set nilai variabel yang memenuhi semua persamaan.</p></li>
+<li><p>Tidak Ada Solusi : Tidak ada nilai variabel yang memenuhi semua persamaan (sistem inkonsisten).</p></li>
+<li><p>Solusi tak terhingga: Ada tak terhingga banyaknya solusi (sistem dependen).</p></li>
+</ol>
+<p>Contoh Persamaan dari 3 variable:</p>
+<img src="images/Gambar_1.png" width="600px" height="600px">
+<p><strong>Metode Penyelesaian Sistem Persamaan Linear:</strong></p>
+<ol class="arabic simple">
+<li><p>Metode Substitusi</p></li>
+<li><p>Metode Eliminasi</p></li>
+</ol>
+<p>Linear memiliki beberapa syarat untuk di sebut linear, diantaranya :</p>
+<ul class="simple">
+<li><p>Hanya memiliki 1 pangkat</p></li>
+</ul>
+<p><strong>Representasi Matriks dari contoh sebelumnya:</strong></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 2 \\
+3 &amp; -1 
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}
+\begin{bmatrix}
+8 \\
+1
+\end{bmatrix}
+\end{split}\]</div>
+<p>Langkah eliminasi gaus</p>
+<ol class="arabic simple">
+<li><p>ubah ke bentuk matriks augmented</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 2 &amp; | &amp; 8 \\
+3 &amp; -1 &amp; | &amp; 1
+\end{bmatrix}
+\end{split}\]</div>
+<ol class="arabic simple" start="2">
+<li><p>Lakukan operasi baris elementer hingga diperoleh matriks eselon baris.</p></li>
+</ol>
+<hr class="docutils" />
+<section id="sistem-persamaan-linear">
+<h2>1.1 Sistem Persamaan Linear<a class="headerlink" href="#sistem-persamaan-linear" title="Link to this heading">#</a></h2>
+<p>Menghitung dan mempelajari solusi dari persamaan, serta sistem persamaan, tidak diragukan lagi memainkan peran penting dalam matematika; meskipun perlu ditambahkan bahwa ini bukanlah satu-satunya hal yang dilakukan matematikawan! Dalam bab ini, kita akan mengembangkan teori yang pada dasarnya lengkap tentang keluarga persamaan matematika yang sangat sederhana: yaitu, persamaan linear.</p>
+<p>Ini akan berfungsi sebagai pengantar tidak langsung untuk studi aljabar linear kita, karena di balik deskripsi parametrik kita tentang solusi untuk sistem linear, terdapat konsep ruang vektor seperti subspace (subruang), span (rentang), dan linear independence (kebebasan linear). Selain itu, kita akan bertemu dengan salah satu alat komputasi terpenting dalam aljabar linear: Eliminasi Gaussian.</p>
+<section id="definisi-persamaan-linear">
+<h3>1.1.1 Definisi Persamaan Linear<a class="headerlink" href="#definisi-persamaan-linear" title="Link to this heading">#</a></h3>
+<p>Sebuah ekspresi linear dalam <span class="math notranslate nohighlight">\(n\)</span> variabel yang tidak diketahui (atau variabel) <span class="math notranslate nohighlight">\(x_1, x_2, \dots, x_n\)</span> adalah ekspresi berbentuk:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[a_1x_1 + a_2x_2 + \dots + a_nx_n\]</div>
+</center>
+<p>di mana <span class="math notranslate nohighlight">\(a_1, a_2, \dots, a_n\)</span> adalah bilangan real tetap.</p>
+<p>Sebuah persamaan linear dalam variabel <span class="math notranslate nohighlight">\(x_1, x_2, \dots, x_n\)</span> adalah persamaan yang dapat disederhanakan, hanya dengan menggunakan penjumlahan dan pengurangan, menjadi persamaan berbentuk:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[(1.1.1) \quad a_1x_1 + a_2x_2 + \dots + a_nx_n = b\]</div>
+</center>
+<p>yang kita sebut sebagai bentuk standarnya. Sebuah persamaan dalam variabel <span class="math notranslate nohighlight">\(x_1, x_2, \dots, x_n\)</span> adalah non-linear jika tidak dapat disederhanakan menjadi bentuk (1.1.1) hanya dengan menggunakan penjumlahan dan pengurangan.</p>
+<p>Diberikan persamaan linear dengan bentuk standar (1.1.1), persamaan tersebut disebut homogen jika <span class="math notranslate nohighlight">\(b = 0\)</span>, dan non-homogen jika <span class="math notranslate nohighlight">\(b \neq 0\)</span>.</p>
+<p><strong>Contoh 1.1.2. Persamaan Linear dan Non-linear.</strong></p>
+<p>Pertimbangkan <span class="math notranslate nohighlight">\(3x_1 - 4x_2 + 5 = x_2\)</span>. Ini adalah persamaan linear dalam variabel <span class="math notranslate nohighlight">\(x_1, x_2\)</span>. Bentuk standarnya adalah <span class="math notranslate nohighlight">\(3x_1 - 5x_2 = -5\)</span>. Karena sisi kanan tidak nol, kita melihat bahwa persamaan ini non-homogen.</p>
+<p>Persamaan <span class="math notranslate nohighlight">\(x_1x_2 + x_3 = 1\)</span> adalah persamaan non-linear dalam variabel <span class="math notranslate nohighlight">\(x_1, x_2, \dots, x_3\)</span>.</p>
+<p><strong>Definisi 1.1.3. Sistem Persamaan Linear.</strong></p>
+<p>Sebuah sistem persamaan linear (atau sistem linear) adalah sekumpulan persamaan linear.</p>
+<p>Sebuah sistem linear homogen adalah sekumpulan persamaan linear homogen.</p>
+<p>Saat menampilkan sistem dari <span class="math notranslate nohighlight">\(m\)</span> persamaan dalam <span class="math notranslate nohighlight">\(n\)</span> variabel <span class="math notranslate nohighlight">\(x_1, x_2, \dots, x_n\)</span>, kita biasanya menulis setiap persamaan dalam bentuk standar dan menyelaraskan suku-suku yang sesuai dari setiap persamaan ke dalam kolom:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1\]</div>
+<div class="math notranslate nohighlight">
+\[a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2\]</div>
+<div class="math notranslate nohighlight">
+\[\vdots \quad \quad \quad \vdots \quad \quad \quad \vdots \quad \quad \quad \vdots\]</div>
+<div class="math notranslate nohighlight">
+\[a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = b_m\]</div>
+</center>
+<p>Sistem homogen biasanya ditulis sebagai:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = 0\]</div>
+<div class="math notranslate nohighlight">
+\[a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = 0\]</div>
+<div class="math notranslate nohighlight">
+\[\vdots \quad \quad \quad \vdots \quad \quad \quad \vdots \quad \quad \quad \vdots\]</div>
+<div class="math notranslate nohighlight">
+\[a_{m1}x_1 + a_{m2}x_2 + \dots + a_{mn}x_n = 0\]</div>
+</center>
+<p><strong>Catatan 1.1.4.</strong> Anda akan ingin merasa nyaman dengan pengindeksan ganda (double-indexing) yang digunakan untuk menampilkan sistem linear sesegera mungkin. Berikut adalah cara yang baik untuk mengorientasikan diri Anda:</p>
+<ul class="simple">
+<li><p>Indeks <span class="math notranslate nohighlight">\(i\)</span> yang muncul di <span class="math notranslate nohighlight">\(a_{ij}\)</span> dan <span class="math notranslate nohighlight">\(b_i\)</span> menunjukkan baris ke-<span class="math notranslate nohighlight">\(i\)</span> dalam sistem yang ditampilkan, atau setara dengan persamaan ke-<span class="math notranslate nohighlight">\(i\)</span>.</p></li>
+<li><p>Indeks <span class="math notranslate nohighlight">\(j\)</span> yang muncul di <span class="math notranslate nohighlight">\(a_{ij}\)</span> menunjukkan kolom ke-<span class="math notranslate nohighlight">\(j\)</span> dalam sistem yang ditampilkan, yang dikaitkan dengan variabel ke-<span class="math notranslate nohighlight">\(j\)</span>, untuk <span class="math notranslate nohighlight">\(j = 1, 2, \dots, n\)</span>.</p></li>
+</ul>
+<p><strong>Definisi 1.1.5. Solusi untuk Sistem Linear.</strong></p>
+<p>Sebuah solusi untuk persamaan linear <span class="math notranslate nohighlight">\(a_1x_1 + a_2x_2 + \dots + a_nx_n = b\)</span> adalah <span class="math notranslate nohighlight">\(n\)</span>-tuple <span class="math notranslate nohighlight">\((s_1, s_2, \dots, s_n)\)</span> dari bilangan real yang jika ditetapkan ke variabel <span class="math notranslate nohighlight">\(x_1 = s_1, x_2 = s_2, \dots, x_n = s_n\)</span> membuat persamaan tersebut benar. Kita katakan <span class="math notranslate nohighlight">\((s_1, s_2, \dots, s_n)\)</span> menyelesaikan persamaan dalam kasus ini.</p>
+<p>Sebuah solusi untuk sistem persamaan linear</p>
+<center>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{matrix}
+a_{11}x_1 &amp; + &amp; a_{12}x_2 &amp; + \cdots + &amp; a_{1n}x_n &amp; = &amp; b_1 \\
+a_{21}x_1 &amp; + &amp; a_{22}x_2 &amp; + \cdots + &amp; a_{2n}x_n &amp; = &amp; b_2 \\
+\vdots &amp; &amp; \vdots &amp; &amp; \vdots &amp; &amp; \vdots \\
+a_{m1}x_1 &amp; + &amp; a_{m2}x_2 &amp; + \cdots + &amp; a_{mn}x_n &amp; = &amp; b_m
+\end{matrix}\end{split}\]</div>
+</center>
+adalah $n$-tuple $(s_1, s_2, \dots, s_n)$ yang merupakan solusi untuk setiap dari $m$ persamaan sistem tersebut.
+<p>Diberikan sistem linear, kita akan mencari himpunan semua solusi untuk sistem tersebut. Himpunan solusi ini akan mengambil salah satu dari tiga bentuk kualitatif:</p>
+<ol class="arabic simple">
+<li><p>Himpunan solusi kosong; yaitu, tidak ada solusi. Kita katakan sistem tersebut inkonsisten. Jika tidak, sistem disebut konsisten.</p></li>
+<li><p>Himpunan solusi berisi satu elemen; yaitu, tepat ada satu solusi.</p></li>
+<li><p>Himpunan solusi berisi elemen tak terhingga; yaitu, ada solusi yang tak terhingga banyaknya.</p></li>
+</ol>
+<p><strong>Contoh 1.1.6. Solusi untuk Sistem Dasar.</strong></p>
+<p>Untuk setiap sistem, hitunglah himpunan solusinya.</p>
+<ol class="arabic">
+<li><center>
+</li>
+</ol>
+<div class="math notranslate nohighlight">
+\[x - y = 0\]</div>
+<div class="math notranslate nohighlight">
+\[x - y = 1\]</div>
+</center>
+<ol class="arabic" start="2">
+<li><center>
+</li>
+</ol>
+<div class="math notranslate nohighlight">
+\[x - y = 0\]</div>
+<div class="math notranslate nohighlight">
+\[x + y = 1\]</div>
+</center>
+<ol class="arabic" start="3">
+<li><center>
+</li>
+</ol>
+<div class="math notranslate nohighlight">
+\[x - y = 1\]</div>
+<div class="math notranslate nohighlight">
+\[2x - 2y = 2\]</div>
+</center>
+<p><strong>Solusi :</strong></p>
+<ol class="arabic simple">
+<li><p>Persamaan pertama menunjukkan <span class="math notranslate nohighlight">\(x = y\)</span>. Mensubstitusikan <span class="math notranslate nohighlight">\(y\)</span> untuk <span class="math notranslate nohighlight">\(x\)</span> ke dalam persamaan kedua, kita akan mendapatkan <span class="math notranslate nohighlight">\(0 = 1\)</span>, sebuah kontradiksi. Jadi, tidak ada solusi: yaitu, <span class="math notranslate nohighlight">\(S\)</span> adalah himpunan kosong, dilambangkan dengan <span class="math notranslate nohighlight">\(S = \{ \}\)</span> atau <span class="math notranslate nohighlight">\(S = \varnothing\)</span>.</p></li>
+<li><p>Persamaan pertama menunjukkan <span class="math notranslate nohighlight">\(x = y\)</span>. Melakukan substitusi ini ke dalam persamaan kedua menghasilkan <span class="math notranslate nohighlight">\(2x = 1\)</span>, atau <span class="math notranslate nohighlight">\(x = 1/2\)</span>. Jadi <span class="math notranslate nohighlight">\((x, y) = (1/2, 1/2)\)</span> adalah solusi unik, dan <span class="math notranslate nohighlight">\(S = \{(1/2, 1/2)\}\)</span>.</p></li>
+<li><p>Persamaan pertama menunjukkan <span class="math notranslate nohighlight">\(x = y\)</span>. Melakukan substitusi ini ke dalam persamaan kedua menghasilkan <span class="math notranslate nohighlight">\(2x = 1\)</span>, atau <span class="math notranslate nohighlight">\(x = 1/2\)</span>. Jadi <span class="math notranslate nohighlight">\((x, y) = (1/2, 1/2)\)</span> adalah solusi unik, dan <span class="math notranslate nohighlight">\(S = \{(1/2, 1/2)\}\)</span>.</p></li>
+</ol>
+<p>Seperti yang mungkin Anda ingat, persamaan linear (nontrivial) dalam dua variabel mendefinisikan sebuah garis di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span>; dan persamaan (nontrivial) dalam tiga variabel mendefinisikan sebuah bidang di <span class="math notranslate nohighlight">\(\mathbb{R}^3\)</span>. Observasi ini memungkinkan kita untuk membawa intuisi geometris yang kuat ke dalam analisis sistem persamaan linear.</p>
+<p><strong>Contoh 1.1.7. Tinjauan Garis dan Bidang.</strong></p>
+<p>Di bawah ini kita mendefinisikan garis (di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span>) dan bidang (di <span class="math notranslate nohighlight">\(\mathbb{R}^3\)</span>) sebagai himpunan solusi dari persamaan linear dalam dua atau tiga variabel yang tidak diketahui. Ingatlah bahwa grafik dari sebuah persamaan adalah himpunan semua solusi untuk persamaan tersebut.</p>
+<ul class="simple">
+<li><p>Garis: Sebuah garis di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span> adalah himpunan solusi (atau grafik) <span class="math notranslate nohighlight">\(\ell\)</span> dari persamaan linear dalam bentuk <span class="math notranslate nohighlight">\(ax + by = c\)</span>, di mana <span class="math notranslate nohighlight">\(a, b, c \in \mathbb{R}\)</span> adalah konstanta tetap, dan setidaknya salah satu dari <span class="math notranslate nohighlight">\(a\)</span> dan <span class="math notranslate nohighlight">\(b\)</span> tidak nol: yaitu,</p></li>
+</ul>
+<center>
+<div class="math notranslate nohighlight">
+\[\ell = \{(x, y) \in \mathbb{R}^2 : ax + by = c\}.\]</div>
+</center>
+* Bidang: Sebuah bidang di $\mathbb{R}^3$ adalah himpunan solusi (atau grafik) $\mathcal{P}$ dari persamaan linear dalam bentuk $ax + by + cz = d$, di mana $a, b, c, d \in \mathbb{R}$ adalah konstanta tetap, dan setidaknya salah satu dari $a, b, c$ tidak nol: yaitu,
+<center>
+<div class="math notranslate nohighlight">
+\[\mathcal{P} = \{(x, y, z) \in \mathbb{R}^3 : ax + by + cz = d\}.\]</div>
+</center>
+<p>Kami sering menggunakan notasi singkat :</p>
+<center>
+<div class="math notranslate nohighlight">
+\[\ell : ax + by = c \quad \quad \mathcal{P} : ax + by + cz = d\]</div>
+</center>
+<p>untuk memperkenalkan garis <span class="math notranslate nohighlight">\(\ell\)</span> dengan persamaan pendefinisian <span class="math notranslate nohighlight">\(ax + by = c\)</span> atau bidang <span class="math notranslate nohighlight">\(\mathcal{P}\)</span> dengan persamaan pendefinisian <span class="math notranslate nohighlight">\(ax + by + cz = d\)</span>.</p>
+<p>Diberikan sebuah bidang <span class="math notranslate nohighlight">\(\mathcal{P} : ax + by + cz = d\)</span>, kami menyebut <span class="math notranslate nohighlight">\(\mathbf{n} = (a, b, c)\)</span> sebagai vektor normal dari <span class="math notranslate nohighlight">\(\mathcal{P}\)</span>. Dilengkapi dengan vektor normal <span class="math notranslate nohighlight">\(\mathbf{n}\)</span> dan sebuah titik tunggal <span class="math notranslate nohighlight">\(P = (x_0, y_0, z_0)\)</span> yang terletak pada <span class="math notranslate nohighlight">\(\mathcal{P}\)</span>, kita dapat dengan cepat memvisualisasikan <span class="math notranslate nohighlight">\(\mathcal{P}\)</span> sebagai himpunan semua titik <span class="math notranslate nohighlight">\(Q = (x, y, z)\)</span> sedemikian sehingga vektor <span class="math notranslate nohighlight">\(\vec{PQ} = (x - x_0, y - y_0, z - z_0)\)</span> adalah ortogonal terhadap <span class="math notranslate nohighlight">\(\mathbf{n}\)</span>. Hal ini memungkinkan kita untuk membayangkan <span class="math notranslate nohighlight">\(\mathcal{P}\)</span> sebagai “bidang yang melewati <span class="math notranslate nohighlight">\(P\)</span> dan ortogonal terhadap <span class="math notranslate nohighlight">\(\mathbf{n}\)</span>”. Sel Sage yang dapat disesuaikan di bawah ini menunjukkan metode visualisasi ini dengan baik.</p>
+<div>
+<iframe src="https://www.geogebra.org/calculator/usdzfquj?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+</div>
+<p><strong>Contoh 1.1.9. Solusi untuk sistem dasar (lagi).</strong></p>
+<p>Untuk setiap sistem dalam Contoh 1.1.6, gunakan argumen geometris untuk menentukan berapa banyak solusi yang ada.</p>
+<p>Kita melanjutkan secara geometris dengan mengamati bahwa setiap persamaan dalam sistem yang diberikan mendefinisikan sebuah garis, bahwa sebuah pasangan <span class="math notranslate nohighlight">\((x, y)\)</span> adalah solusi untuk persamaan yang diberikan jika dan hanya jika ia adalah sebuah titik pada garis yang bersangkutan, dan dengan demikian bahwa sebuah pasangan <span class="math notranslate nohighlight">\((x, y)\)</span> adalah solusi untuk kedua persamaan jika dan hanya jika ia adalah sebuah titik yang terletak pada kedua garis tersebut. Jadi, secara geometris, himpunan solusi untuk sistem yang diberikan sama dengan perpotongan dari dua garis yang bersesuaian.</p>
+<ol class="arabic simple">
+<li><p>Dalam kasus ini kedua garis <span class="math notranslate nohighlight">\(x - y = 0\)</span> dan <span class="math notranslate nohighlight">\(x - y = 1\)</span> adalah sejajar (dan tidak sama satu sama lain). Oleh karena itu perpotongan keduanya adalah kosong. Kita menyimpulkan bahwa tidak ada solusi untuk sistem tersebut.</p></li>
+<li><p>Dalam kasus ini kedua garis <span class="math notranslate nohighlight">\(x - y = 0\)</span> dan <span class="math notranslate nohighlight">\(x + y = 1\)</span> adalah tidak sejajar. Oleh karena itu mereka berpotongan di satu titik tunggal. Kita menyimpulkan bahwa sistem tersebut memiliki solusi unik.</p></li>
+<li><p>Dalam kasus ini kedua persamaan <span class="math notranslate nohighlight">\(x - y = 1\)</span> dan <span class="math notranslate nohighlight">\(2x - 2y = 2\)</span> mendefinisikan garis yang sama <span class="math notranslate nohighlight">\(\ell\)</span>, dan dengan demikian perpotongan mereka juga sama dengan <span class="math notranslate nohighlight">\(\ell\)</span>. Himpunan solusi untuk sistem tersebut kemudian sama dengan himpunan titik-titik dari <span class="math notranslate nohighlight">\(\ell\)</span>, yang mana adalah tak terhingga.</p></li>
+</ol>
+</section>
+</section>
+<section id="row-operations-operasi-baris">
+<h2>1.1.2 Row operations (Operasi baris)<a class="headerlink" href="#row-operations-operasi-baris" title="Link to this heading">#</a></h2>
+<p>Dalam Contoh 1.1.6 kita mampu menggabungkan beberapa logika dan aritmatika sederhana untuk menyelesaikan setiap sistem secara lengkap. Tentu saja, hal-hal menjadi lebih rumit seiring bertambahnya jumlah persamaan dan/atau variabel yang tidak diketahui dalam sistem tersebut.</p>
+<p>Sebagai contoh, pertimbangkan sistem:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[2x - y - z = 3\]</div>
+<div class="math notranslate nohighlight">
+\[x - z = 2 \quad \quad (1.1.2)\]</div>
+<div class="math notranslate nohighlight">
+\[x - y = 1\]</div>
+</center>
+<p>Amati pertama-tama bahwa tripel <span class="math notranslate nohighlight">\((5, 2, 5)\)</span> bukan merupakan solusi untuk sistem tersebut; pemeriksaan mudah menunjukkan bahwa itu memenuhi persamaan pertama dan kedua, tetapi tidak yang ketiga. Demikian pula, mudah untuk memverifikasi bahwa <span class="math notranslate nohighlight">\((4, 2, 3)\)</span> dan <span class="math notranslate nohighlight">\((0, -1, 2)\)</span> keduanya adalah solusi untuk sistem tersebut. Pertanyaannya tetap: Bagaimana kita menemukan semua solusi untuk sistem linear dengan cara yang sistematis?</p>
+<p>Catatan 1.1.10. Perhatikan spasi yang agak lucu pada (1.1.2). Ini diberlakukan untuk menyelaraskan variabel yang tidak diketahui ke dalam kolom-kolom terpisah. Secara umum, saat dihadapkan dengan sistem linear, langkah pertama Anda adalah menulis setiap persamaan dalam bentuk standar, dan memastikan variabel yang tidak diketahui selaras secara vertikal dengan cara ini.</p>
+<p>Beberapa sistem lebih mudah diselesaikan daripada yang lain. Di bawah ini Anda menemukan dua sistem dengan tiga persamaan dalam tiga variabel yang tidak diketahui:</p>
+<p><strong>Sistem <span class="math notranslate nohighlight">\(L\)</span></strong></p>
+<p><span class="math notranslate nohighlight">\(2x + 3y + -z = 18\)</span></p>
+<p><span class="math notranslate nohighlight">\(x + 2y - 2z = 8\)</span></p>
+<p><span class="math notranslate nohighlight">\(-\frac{1}{2}x + -\frac{1}{2}y + \frac{1}{2}z = -3\)</span></p>
+<p><strong>Sistem <span class="math notranslate nohighlight">\(L'\)</span></strong></p>
+<p><span class="math notranslate nohighlight">\(x + y + z = 10\)</span></p>
+<p><span class="math notranslate nohighlight">\(y - 3z = -2\)</span></p>
+<p><span class="math notranslate nohighlight">\(z = 2\)</span></p>
+<p>Pola tangga dari <span class="math notranslate nohighlight">\(L'\)</span> memungkinkan kita untuk menyelesaikannya dengan mudah melalui substitusi balik. Secara lebih rinci:</p>
+<ul class="simple">
+<li><p>Persamaan 3 dalam <span class="math notranslate nohighlight">\(L'\)</span> memberi tahu kita bahwa <span class="math notranslate nohighlight">\(z = 2\)</span>.</p></li>
+<li><p>Sekarang substitusikan <span class="math notranslate nohighlight">\(z = 2\)</span> ke dalam Persamaan 2 dari <span class="math notranslate nohighlight">\(L'\)</span> dan selesaikan untuk <span class="math notranslate nohighlight">\(y\)</span> sehingga mendapatkan <span class="math notranslate nohighlight">\(y = 4\)</span>.</p></li>
+<li><p>Terakhir, substitusikan <span class="math notranslate nohighlight">\(z = 2\)</span> dan <span class="math notranslate nohighlight">\(y = 4\)</span> ke dalam Persamaan 1 dari <span class="math notranslate nohighlight">\(L'\)</span> dan selesaikan untuk <span class="math notranslate nohighlight">\(x\)</span> sehingga mendapatkan <span class="math notranslate nohighlight">\(x = 4\)</span>. Kita menyimpulkan bahwa <span class="math notranslate nohighlight">\((4, 4, 2)\)</span> adalah solusi untuk <span class="math notranslate nohighlight">\(L'\)</span>.</p></li>
+<li><p>Terlebih lagi, karena pada setiap langkah kita tidak memiliki pilihan lain (<span class="math notranslate nohighlight">\(z\)</span> harus sama dengan 2, <span class="math notranslate nohighlight">\(y\)</span> kemudian harus sama dengan 4, dst.), kita melihat bahwa faktanya <span class="math notranslate nohighlight">\((4, 4, 2)\)</span> adalah satu-satunya solusi untuk <span class="math notranslate nohighlight">\(L'\)</span>.</p></li>
+</ul>
+<p>Metode kita untuk menyelesaikan sistem yang lebih rumit, seperti <span class="math notranslate nohighlight">\(L\)</span> di atas, adalah dengan mengubahnya menjadi sistem yang lebih sederhana seperti <span class="math notranslate nohighlight">\(L'\)</span>.</p>
+<p>Poin kunci. Agar metode ini berhasil, kita perlu memastikan bahwa sistem yang diubah memiliki solusi yang tepat sama dengan sistem aslinya! Untuk tujuan ini, kita akan membatasi transformasi yang diizinkan pada operasi dasar yang didefinisikan di bawah ini.</p>
+<p><strong>Definisi 1.1.11.</strong> Operasi dasar pada sistem linear. Sebuah operasi dasar (atau operasi baris dasar) adalah salah satu dari tiga jenis operasi pada sistem linear yang dijelaskan di bawah ini.</p>
+<ul class="simple">
+<li><p><strong>Perkalian skalar:</strong>
+Kalikan sebuah persamaan dengan angka yang tidak nol <span class="math notranslate nohighlight">\(k\)</span>: yaitu, ganti persamaan ke-<span class="math notranslate nohighlight">\(i\)</span> (<span class="math notranslate nohighlight">\(E_i\)</span>) dari sistem dengan <span class="math notranslate nohighlight">\(kE_i\)</span> untuk <span class="math notranslate nohighlight">\(k \neq 0\)</span>. Catatan: <span class="math notranslate nohighlight">\(kE_i\)</span> adalah hasil dari mengalikan sisi kiri dan kanan persamaan <span class="math notranslate nohighlight">\(E_i\)</span> dengan <span class="math notranslate nohighlight">\(k\)</span>.</p></li>
+<li><p><strong>Pertukaran persamaan:</strong>
+Tukar persamaan ke-<span class="math notranslate nohighlight">\(i\)</span> dan ke-<span class="math notranslate nohighlight">\(j\)</span> dari sistem, <span class="math notranslate nohighlight">\(E_i \leftrightarrow E_j\)</span>: yaitu, ganti persamaan <span class="math notranslate nohighlight">\(E_i\)</span> dari sistem dengan <span class="math notranslate nohighlight">\(E_j\)</span>, dan ganti persamaan <span class="math notranslate nohighlight">\(E_j\)</span> dengan <span class="math notranslate nohighlight">\(E_i\)</span>.</p></li>
+<li><p><strong>Penjumlahan persamaan:</strong>
+Tambahkan kelipatan dari satu persamaan ke persamaan lainnya: yaitu, ganti <span class="math notranslate nohighlight">\(E_i\)</span> dengan <span class="math notranslate nohighlight">\(E_i + kE_j\)</span> untuk beberapa <span class="math notranslate nohighlight">\(k \neq 0\)</span>, <span class="math notranslate nohighlight">\(i \neq j\)</span>, dan <span class="math notranslate nohighlight">\(k\)</span>.</p></li>
+</ul>
+<p>Tindakan mengubah sistem persamaan menggunakan operasi dasar disebut reduksi (atau reduksi baris).</p>
+<p>Setelah mereduksi sistem linear <span class="math notranslate nohighlight">\(L\)</span> menggunakan operasi dasar, kita ditinggalkan dengan sistem baru <span class="math notranslate nohighlight">\(L'\)</span>. Sistem <span class="math notranslate nohighlight">\(L\)</span> dan <span class="math notranslate nohighlight">\(L'\)</span> umumnya akan terlihat sangat berbeda satu sama lain. Namun, perhatikan bahwa kedua sistem tersebut akan memiliki jumlah persamaan yang sama, dan jumlah variabel yang sama. Yang lebih penting, kedua sistem tersebut akan memiliki himpunan solusi yang identik; artinya, himpunan solusi dari sistem baru <span class="math notranslate nohighlight">\(L'\)</span> identik dengan himpunan solusi untuk <span class="math notranslate nohighlight">\(L\)</span>!</p>
+<p>Untuk meyakinkan diri kita sendiri akan pernyataan terakhir ini, cukup dengan menunjukkan bahwa penerapan salah satu dari operasi baris dasar ini menghasilkan sistem baru <span class="math notranslate nohighlight">\(L'\)</span> dengan himpunan solusi yang tepat sama dengan <span class="math notranslate nohighlight">\(L\)</span>; jika demikian, maka melakukan urutan terbatas dari operasi baris dasar juga harus mempertahankan himpunan solusi dalam pengertian ini. Teorema 1.1.13 meresmikan argumen ini. Pertama, kita memperkenalkan gagasan tentang sistem linear yang ekuivalen, terutama untuk menghindarkan diri kita dari pengucapan panjang “didapat dengan menerapkan urutan terbatas dari operasi baris dasar”.</p>
+<p><strong>Definisi 1.1.12. Sistem linear ekuivalen baris.</strong></p>
+<p>Kita katakan dua sistem persamaan linear adalah ekuivalen baris jika yang satu dapat diperoleh dari yang lain melalui urutan terbatas dari operasi dasar.</p>
+<p><strong>Teorema 1.1.13. Teorema ekuivalensi baris.</strong></p>
+<p>Sistem persamaan linear yang ekuivalen baris memiliki himpunan solusi yang identik.</p>
+<p><strong>Contoh 1.1.14.</strong></p>
+<p>Pertimbangkan kembali sistem linear:</p>
+<center>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{matrix}
+2x &amp; + &amp; 3y &amp; + &amp; -z &amp; = &amp; 18 \\
+x &amp; + &amp; 2y &amp; - &amp; 2z &amp; = &amp; 8 \\
+-\frac{1}{2}x &amp; + &amp; -\frac{1}{2}y &amp; + &amp; \frac{1}{2}z &amp; = &amp; -3
+\end{matrix}\end{split}\]</div>
+</center>
+<p>Kita mentransformasikan sistem tersebut sebagai berikut:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{matrix}
+2x &amp; + &amp; 3y &amp; + &amp; -z &amp; = &amp; 18 \\
+x &amp; + &amp; 2y &amp; - &amp; 2z &amp; = &amp; 8 \\
+-\frac{1}{2}x &amp; + &amp; -\frac{1}{2}y &amp; + &amp; \frac{1}{2}z &amp; = &amp; -3
+\end{matrix}
+\xrightarrow{2e_3}
+\begin{matrix}
+2x &amp; + &amp; 3y &amp; + &amp; -z &amp; = &amp; 18 \\
+x &amp; + &amp; 2y &amp; - &amp; 2z &amp; = &amp; 8 \\
+-x &amp; + &amp; -y &amp; + &amp; z &amp; = &amp; -6
+\end{matrix}\end{split}\]</div>
+<center>
+<div class="math notranslate nohighlight">
+\[\begin{split}\xrightarrow{e_1 - e_2}
+\begin{matrix}
+x &amp; + &amp; y &amp; + &amp; z &amp; = &amp; 10 \\
+x &amp; + &amp; 2y &amp; - &amp; 2z &amp; = &amp; 8 \\
+-x &amp; + &amp; -y &amp; + &amp; z &amp; = &amp; -6
+\end{matrix}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\xrightarrow{e_2 - e_1}
+\begin{matrix}
+x &amp; + &amp; y &amp; + &amp; z &amp; = &amp; 10 \\
+ &amp; &amp; y &amp; - &amp; 3z &amp; = &amp; -2 \\
+-x &amp; + &amp; -y &amp; + &amp; z &amp; = &amp; -6
+\end{matrix}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\xrightarrow{e_3 + e_1}
+\begin{matrix}
+x &amp; + &amp; y &amp; + &amp; z &amp; = &amp; 10 \\
+ &amp; &amp; y &amp; - &amp; 3z &amp; = &amp; -2 \\
+ &amp; &amp; &amp; &amp; 2z &amp; = &amp; 4
+\end{matrix}\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}\xrightarrow{\frac{1}{2}e_3}
+\begin{matrix}
+x &amp; + &amp; y &amp; + &amp; z &amp; = &amp; 10 \\
+ &amp; &amp; y &amp; - &amp; 3z &amp; = &amp; -2 \\
+ &amp; &amp; &amp; &amp; z &amp; = &amp; 2
+\end{matrix}\end{split}\]</div>
+</center></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Aljabar_Linear"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Pertemuan1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Pertemuan 1</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Pertemuan3.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Pertemuan 3 (26/022026/)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sistem-persamaan-linear">1.1 Sistem Persamaan Linear</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-persamaan-linear">1.1.1 Definisi Persamaan Linear</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#row-operations-operasi-baris">1.1.2 Row operations (Operasi baris)</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Ahmad Ubaidillah Mappattiro
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
