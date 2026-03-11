@@ -9,9 +9,11 @@ parts :
     - file: Aljabar_Linear/Pertemuan1
     - file: Aljabar_Linear/Pertemuan2
     - file: Aljabar_Linear/Pertemuan3
+    - file: Aljabar_Linear/Pertemuan4
     - file: Aljabar_Linear/KumpulanTugas
 - caption: Kecerdasan Komputasional
   chapters:
     - file: KerKom/Pertemuan2
     - file: KerKom/Pertemuan3
+    - file: KerKom/Pertemuan4
 
